@@ -1,7 +1,4 @@
 - 👋 Hi, I’m @winsorflowers
-- 👀 I’m interested in Game Development/Game Design/Level Design 
-- 🌱 I’m currently learning Unreal Engine/Blueprint Scripting Language 
-- 💞️ I’m looking to collaborate on Game Development :)
 - 📫 How to reach me email address winsorflo@gmail.com
 
 <!---
