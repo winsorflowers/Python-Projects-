@@ -1,0 +1,29 @@
+import random
+name = "Winsor "
+question = "Am I going to get my dream job?"
+answer = ""
+random_number = random.randint(1,9)
+print(random_number)
+
+if random_number == 1: 
+  answer = "Yes - definitely"
+elif random_number == 2:
+  answer = "It is decidely so"
+elif random_number == 3: 
+  answer = "No not likely"
+elif random_number == 4: 
+  answer = "Go with plan B"
+elif random_number == 5:
+  answer = "Try again next year"
+elif random_number == 6: 
+  answer = "Send your resume again"
+elif random_number == 7: 
+  answer = "You are close to getting it"
+elif random_number == 8: 
+  answer = "You need more experience"
+elif random_number == 9: 
+  answer = "My sources say no"
+else:
+  answer = "Error"
+print(name + "asks: " + question)
+print("Magic 8-Ball's answer: " + answer)
