@@ -1,0 +1,25 @@
+import random
+print("Welcome to the team allocator")
+while True:
+    team_list = ["Martin", "Craig", " Sue", "Claire", "Dave", "Alice", "Luciana", "Harry", "Jack", "Rose", "Lexi", "Maria", "Thomas", "James", "William", "Ada", "Grace", "Jean", "Marissa", "Alan"]
+    random.shuffle(team_list)
+
+    print(team_list)
+    print("\n")
+
+    team_one = team_list[:len(team_list)//2]
+    #Randomly select captain for team 1
+    captain_one = random.choice(team_one)
+
+    print(f'Team one has been selected. The following memebers are {team_one}. The team captain for team one is {captain_one}')
+    print("\n")
+
+    team_two = team_list[len(team_list)//2:]
+
+    captain_two = random.choice(team_two)
+
+    print(f'Team two has been selected. The following memebers are {team_two}. The team captain for team two is {captain_two}')
+    print("Repick teams? (y/n)")
+    response = input()
+    if response == "n":
+        break
